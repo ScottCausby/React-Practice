@@ -1,0 +1,6 @@
+UI State becomes difficult to manage with Vanilla JavaScript.
+In big JavaScript applications you have to manually target elements in the DOM.
+React helps makes the UI State management easier.
+Focus on Business Logic not on preventing your App from crashing.
+Huge Ecosystem, Active Community and High Performance.
+There are Frameworks with clean and efficient code.
