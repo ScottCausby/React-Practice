@@ -1,0 +1,50 @@
+regular JavaScript Function
+
+function myFunction() {
+    ...
+}
+
+Arrow Function
+
+const myFunction = () => {
+    ...
+}
+
+Arrow functions removes the issue with the "this" keyword. When you use the "this" keyword in an arrow function it will always keep its context and not surprise you and change on run time.
+
+
+
+JavaScript Function example
+
+function printMyName() {
+    console.log(name);
+}
+
+printMyName('Scott');
+
+will return "Scott" in the console.
+
+/////////////////////////////////////////////
+
+Arrow Function example
+
+const printMyName = (name) => {
+    console.log(name);
+}
+
+printMyName('Scott');
+
+will return "Scott" in the console.
+
+//////////////////////////////////////////////
+
+shortened Arrow Function example
+
+const printMyName = name => { // this is only able to be used if there is ONE argument
+ 
+    console.log(name);
+}
+
+printMyName('Scott');
+
+will return "Scott" in the console.

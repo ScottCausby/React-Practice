@@ -1,0 +1,51 @@
+Var creates a variable in JavaScript, but some variables never really change and are constants.
+With ES6 Let and Const were introduced, var still works but let and const are highly recommended.
+Let is the new var. You use let when you want to create a variable that really is variable.
+Const is used when you want to create a value that wont change or recieve a new value.
+
+Var example
+
+var myName = 'Scott';
+console.log(myName);
+
+console will return "Scott"
+
+myName = 'Chris';
+console.log(myName);
+
+console will return "Chris"
+
+because the var variable can be changed.
+
+//////////////////////////////////////////////////
+
+Let example 
+
+let myName = 'Scott';
+console.log(myName);
+
+console will return "Scott"
+
+myName = 'Chris';
+console.log(myName);
+
+console will return "Chris"
+
+because the let variable can be changed.
+
+//////////////////////////////////////////////////
+
+Const example
+
+const myName = 'Scott';
+console.log(myName);
+
+console will return "Scott"
+
+myName = 'Chris';
+console.log(myName);
+
+console will return an error
+
+because the const variable can not be reasigned or changed
+
