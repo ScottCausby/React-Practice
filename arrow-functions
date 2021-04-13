@@ -40,11 +40,15 @@ will return "Scott" in the console.
 
 shortened Arrow Function example
 
-const printMyName = name => { // this is only able to be used if there is ONE argument
- 
+const printMyName = name => { // this is only able to be used if there is ONE argument not 0 or 2+. If you have 0 arguments you must pass an empty ()
+
     console.log(name);
 }
 
 printMyName('Scott');
 
 will return "Scott" in the console.
+
+
+////////////////////////////////////////////////
+
