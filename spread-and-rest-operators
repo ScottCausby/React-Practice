@@ -1,0 +1,36 @@
+Spread and Rest operators are 3 dots ... (the same but different depending on where you use them)
+
+
+Spread ... used to split up array elements OR object properties
+
+Rest ... used to merge a list of cuntion arguments into an array
+
+//// Spread array exambles////
+
+const numbers = [1, 2, 3]; // standard array
+const newNumbers = [...numbers, 4]; // ... joins numbers and new numbers into 1 array.
+
+console.log(newNumbers); "console.logs [1, 2, 3 , 4]"
+
+
+//// Spread object exambles////
+
+const person = {
+    name: 'Scott' /// standard object that would console log "Scott"
+};
+
+const newPerson = {
+    ...person, /// ...person pulls 'Scott' from person and adds age 28 into the newPerson object
+    age: 28
+}
+
+console.log(newPerson);
+
+
+//// Rest examples (used less than Spread)////
+
+const filter = (...arguments) => {
+    return arguments.filter(element => element === 2);
+}
+
+console.log(filter(1, 2, 3));
